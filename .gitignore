@@ -4,3 +4,86 @@ node_modules
 amplify_outputs*
 amplifyconfiguration*
 .nvm/
+
+# Ignore system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore directories related to Node.js
+.npm/
+node_modules/
+
+# Ignore zsh history and session files
+.zsh_history
+.zsh_sessions/
+
+# Ignore macOS Library files
+Library/
+
+# Ignore other unnecessary files
+.localized
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node build outputs
+dist   
+dist-ssr 
+*.local
+# amplify
+node_modules
+.amplify
+amplify_outputs*
+amplifyconfiguration*
+.nvm/
+
+# Ignore system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore directories related to Node.js
+.npm/
+node_modules/
+
+# Ignore zsh history and session files
+.zsh_history
+.zsh_sessions/
+
+# Ignore macOS Library files
+Library/
+
+# Ignore other unnecessary files
+.localized
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node build outputs
+dist   
+dist-ssr 
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln  
+*.sw?
+
